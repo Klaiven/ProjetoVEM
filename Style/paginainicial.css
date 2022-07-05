@@ -1,0 +1,374 @@
+.primeiro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #4895D7;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+}
+
+.mao{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    position: relative;
+    right: 100px;
+}
+
+.mao img{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    min-width: 600px;
+}
+
+.apresentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    width: 500px;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.text h1{
+    display: flex;
+    color: #DF9B35;
+    font-size: 96px;
+    text-shadow: 0px 1px 3px black;
+    margin-right: 20px;
+}
+
+.apresentation h2{
+    display: flex;
+    color: white;
+    font-size: 64px;
+    text-shadow: 0px 1px 1px black;
+    text-align: center;
+}
+
+
+.icones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icones p{
+    padding: 0 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.download{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.download img, a{
+    max-width: 220px;
+}
+
+.segundo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.recarga{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.textrec, .textcon{
+    display: flex;
+    margin-top: 10px;
+}
+
+.recarga h2{
+    display: flex;
+    font-size: 32px;
+}
+
+.recarga h1{
+    display: flex;
+    margin-left: 10px;
+    color: #DF9B35;
+    font-size: 32px;
+    text-shadow: 0px 1px 3px black;
+}
+
+.recarga p{
+    font-size: 18px;
+    max-width: 450px;
+}
+
+.recarga a{
+    font-size: 20px;
+    background-color: #DF9B35;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20%;
+}
+
+
+.conheca{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    margin: 0 30px;
+    justify-content: space-between;
+}
+
+
+.textcon h2{
+    display: flex;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.textcon h1{
+    display: flex;
+    margin-left: 10px;
+    color: #DF9B35;
+    font-size: 32px;
+    text-shadow: 0px 1px 3px black;
+}
+
+.conheca img{
+    width: 350px;
+    margin-bottom: 25px;
+
+}
+
+.conheca p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.conheca a{
+    font-size: 20px;
+    background-color: #DF9B35;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 20%;
+}
+
+.terceiro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #4895D7;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    padding: 25px 0;
+}
+
+.terceiro h2{
+    display: flex;
+    font-size: 48px;
+    color: white;
+    text-shadow: 0px 1px 3px black;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+.planos{    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 60%;
+    height: 50%;
+    border-radius: 20px;
+    box-shadow: 0px 1px 5px black;
+    justify-content: center;
+    align-items: center;
+}
+
+.planos a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #DF9B35;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    transition: 200ms;
+    border-radius: 20px;
+}
+
+.planos a:hover{
+    background-color: #d9d9d9;
+}
+
+.planos ion-icon{
+    font-size: 64px;
+  }
+
+.planos .rmr img{
+    width: 64px;
+}
+
+.planos .pcr img{
+    width: 64px;
+}
+
+.planos .livre img{
+    width: 64px;
+}
+
+
+/* MEDIAS QUERRY */
+
+@media(max-width:1200px){
+    .mao{
+        display: none;
+    }
+}
+
+@media(max-width:870px){
+    .segundo{
+        flex-wrap: wrap;
+    }
+    .recarga, .conheca{
+        width: 80%;
+    }
+}
+
+@media(max-width:630px){
+    .text{
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icones p{
+        padding: 0 20px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+@media(max-width:500px){
+    .download{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+    .icones{
+        flex-direction: column;
+    }
+    .text h1{
+        font-size: 64px;
+    }
+    .text{
+        width: 100%;
+    }
+    
+    .apresentation h2{
+        font-size: 64px;
+    }
+
+    .apresentation{
+        width: 100%;
+    }
+    
+}
+
+
+@media(max-width:400px){
+    .segundo{
+        flex-wrap: wrap;
+    }
+    .recarga, .conheca{
+        width: 100%;
+    }
+    .download img, a{
+        margin-bottom: -10px;
+    }
+
+    .recarga h1{
+        font-size: 26px;
+    }
+    .recarga h2{
+        font-size: 26px;
+    }
+    .recarga p{
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .recarga a{
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        background-color: #DF9B35;
+        color: white;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        padding: 5px 20%;
+    }
+    .conheca h1{
+        font-size: 26px;
+    }
+    .conheca h2{
+        font-size: 26px;
+    }
+    .conheca p{
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .conheca a{
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .conheca img{
+        width: 260px;
+    }
+    .planos{    
+        background-color: white;
+        width: 100%;
+        height: 50%;
+        border-radius: 0px;
+        box-shadow: 0px 1px 5px black;
+        justify-content: center;
+        align-items: center;
+    }
+    .planos a{
+        height: 120px;
+        font-size: 20px;
+        width: 120px;
+    }
+    
+}
