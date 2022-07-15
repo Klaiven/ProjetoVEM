@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/cs2?family=Anek+Malayalam:wght@400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Anek Malayalam', sans-serif;
+    text-decoration: none;
+    color: #333131;
+}
+
+a:hover{
+    color: rgb(235, 179, 76);
+    text-decoration: underline;
+}
+
+.tarja-cores{
+    width: 100%;
+    height: 20px;
+}
+
+/* SOBRE */
+
+.sobre{
+    position: relative;
+    display: flex;
+    background-color: rgb(219, 175, 92);
+}
+
+.textSobre{
+    margin: auto;
+    margin-top: 120px;
+    margin-left: 300px;
+    background-color: rgb(219, 175, 92);  
+}
+
+.textSobre h1{
+    background-color: rgb(219, 175, 92);
+}
+
+.textSobre p{
+    background-color: rgb(219, 175, 92);
+    margin: 20px;
+    margin-left: -100px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+/* RECARGA */
+
+.recarga{
+    position: relative;
+    display: flex;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.textRecarga{
+    margin: auto;
+    margin-top: 120px;
+}
+
+.textRecarga p{
+    margin: 20px;
+    margin-left: -150px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+/* BILHETAGEM */
+
+.bilhetagem{
+    background-color:rgb(219, 175, 92);
+    padding: 30px;
+}
+
+.textBilhetagem{
+    margin-left: 100px;
+    margin: 0px 100px 0px 100px;
+}
+
+/* CONTATOS */
+
+.contatos{
+    padding: 30px;
+}
+
+.contatos h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.contatos p{
+    margin-left: 100px;
+}
+
+/* 1160px */
+
+@media screen and (max-width: 1160px){
+    .textSobre{
+        margin-left: 220px;
+    }
+    .textSobre h1{
+        margin-left: 30px;
+    }
+
+    .textRecarga{
+        margin-left: 180px;
+    }
+
+}
+
+/* 1070px */
+
+@media screen and (max-width: 1070px){
+
+    .sobre img{
+        width: 400px;
+        height: 300px;
+    }
+    .textSobre{
+        margin-left: 180px;
+        margin-top: 80px;
+    }
+
+    .recarga img{
+        width: 400px;
+        height: 300px;
+    }
+    .textRecarga{
+        margin-top: 80px;
+        margin-left: 180px;
+    }
+}
+
+/* 960px */
+
+@media screen and (max-width: 960px){
+    .textSobre{
+        margin-left: 150px;
+    }
+
+    .textRecarga{
+        margin-left: 150px;
+    }
+}
+
+/* 915px */
+
+@media screen and (max-width: 915px){
+    .sobre img{
+        width: 350px;
+        height: 250px;
+    }
+    .textSobre{
+        margin-top: 50px;
+    }
+
+    .recarga img{
+        width: 350px;
+        height: 250px;
+    }
+    .textRecarga{
+        margin-top: 50px;
+    }
+
+    .textBilhetagem{
+        margin-left: 50px;
+        margin: 0px 50px 0px 50px;
+    }
+}
+
+/* 867px */
+
+@media screen and (max-width: 867px){
+    .sobre img{
+        width: 300px;
+        height: 200px;
+    }
+    .textSobre{
+        margin-top: 30px;
+    }
+
+    .recarga img{
+        width: 300px;
+        height: 200px;
+    }
+    .textRecarga{
+        margin-top: 30px;
+    }
+
+    .textBilhetagem{
+        margin-left: 30px;
+        margin: 0px 30px 0px 30px;
+    }
+}
+
+/* 815px */
+
+@media screen and (max-width: 815px){
+    .textSobre{
+        margin-left: 140px;
+    }
+
+    .textRecarga{
+        margin-left: 145px;
+        width: 500px;
+    }
+}
+
+/* 790px */
+
+@media screen and (max-width: 790px){
+    .textSobre{
+        
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+
+    .textRecarga{
+        margin-left: 140px;
+    }
+
+    .textBilhetagem p{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+}
+
+/* 780px */
+
+@media screen and (max-width: 780px){
+    .sobre{
+        display: block;
+    }
+    .sobre img{
+        width: 100%;
+        height: 300px;
+    }
+    .textSobre{
+        margin-left: 250px;
+        width: 400px;
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .textRecarga{
+        width: 100px;
+        margin-left: 230px;
+    }
+
+    .textRecarga h1{
+        margin-left: -100px;
+    }
+
+}
+
+/* 660px */
+
+@media screen and (max-width: 660px){
+    .textSobre{
+        width: 400px;
+        margin-left: 200px;
+    }
+
+    .textRecarga{
+        margin-left: 180px;
+    }
+
+    .textBilhetagem{
+        margin: 0px 20px 0px 20px;
+    }
+}
+
+/* 600px */
+
+@media screen and (max-width: 600px){
+
+    .textSobre{
+        width: 370px;
+        margin-left: 160px;
+        padding-top: 20px;
+    }
+
+    .recarga{
+        display: block;
+    }
+
+    .recarga img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .textRecarga{
+        width: 325px;
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+
+    .textRecarga h1{
+        margin-left: 10px;
+    }
+}
+
+/* 545px */
+
+@media screen and (max-width: 545px){
+    
+    .sobre img{
+        width: 100%;
+        height: 250px;
+    }
+    .textSobre p{
+        margin-left: -130px;
+    }
+    
+    .textRecarga{
+        width: 320px;
+        margin-left: 170px;
+    }
+    .recarga img{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+
+
+/* 500px */
+
+@media screen and (max-width: 500px){
+    .textSobre{
+        width: 180px;
+        margin-left: 210px;
+    }
+    .textSobre h1{
+        margin-left: -70px;
+    }
+
+    .textRecarga{
+        margin-left: 220px;
+        width: 100px;
+    }
+    .textRecarga h1{
+        margin-left: -90px;
+    }
+
+    .textBilhetagem{
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+/* 390px */
+
+@media screen and (max-width: 390px){
+    .textSobre{
+        width: 120px;
+        margin-left: 220px;
+    }
+    .textSobre h1{
+        margin-left: -120px;
+    }
+
+    .textRecarga{
+        margin-left: 210px;
+    }
+}
+
+/* 330px */
+
+@media screen and (max-width: 330px){
+    .textSobre{
+        margin-left: 200px;
+    }
+
+    .textRecarga{
+        margin-left: 180px;
+    }
+}
