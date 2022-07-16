@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/cs2?family=Anek+Malayalam:wght@400;500;600;700;800&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Anek Malayalam', sans-serif;
-    text-decoration: none;
-    color: #333131;
-}
-
 a:hover{
     color: rgb(235, 179, 76);
     text-decoration: underline;
@@ -18,363 +8,156 @@ a:hover{
     height: 20px;
 }
 
+h1 {
+    font-size: 48px;
+    text-shadow: 0px 0.2px 3px rgba(0, 0, 0, 0.315);
+    margin-bottom: 20px;
+}
+
+.sobre p, .recarga p, .bilhetagem p, .contatos p {
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-align: justify;
+}
+
 /* SOBRE */
 
 .sobre{
-    position: relative;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: rgb(219, 175, 92);
+    padding: 50px 10%;
+    align-items: center;
+    height: auto;
+}
+
+.sobre img{
+    width: 500px;
+    box-shadow: 0px 1px 5px black;
 }
 
 .textSobre{
-    margin: auto;
-    margin-top: 120px;
-    margin-left: 300px;
-    background-color: rgb(219, 175, 92);  
+    text-align: justify;
+    margin-left: 5%;
+    max-width: 600px;
 }
 
 .textSobre h1{
-    background-color: rgb(219, 175, 92);
+    text-align: center;
 }
 
-.textSobre p{
-    background-color: rgb(219, 175, 92);
-    margin: 20px;
-    margin-left: -100px;
-    font-weight: 600;
-    line-height: 25px;
-}
+
 
 /* RECARGA */
 
 .recarga{
-    position: relative;
     display: flex;
+    flex-direction: row;
     background-color: #fff;
-    padding: 30px;
+    justify-content: space-between;
+    padding: 50px 10%;
+    align-items: center;
+    height: auto;
+}
+
+.recarga img{
+    width: 500px;
 }
 
 .textRecarga{
-    margin: auto;
-    margin-top: 120px;
+    margin-left: 5%;
 }
 
-.textRecarga p{
-    margin: 20px;
-    margin-left: -150px;
-    font-weight: 600;
-    line-height: 25px;
+.textRecarga h1{
+    text-align: center;
+
 }
 
 /* BILHETAGEM */
 
 .bilhetagem{
     background-color:rgb(219, 175, 92);
-    padding: 30px;
-}
-
-.textBilhetagem{
-    margin-left: 100px;
-    margin: 0px 100px 0px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 10%;
+    align-items: center;
+    height: auto;
 }
 
 /* CONTATOS */
 
 .contatos{
-    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 50px 10%;
+    align-items: center;
+    height: auto;
 }
 
 .contatos h1{
-    text-align: center;
-    margin-bottom: 20px;
     color: red;
 }
 
-.contatos p{
-    margin-left: 100px;
-}
 
-/* 1160px */
+/* 1050px */
 
-@media screen and (max-width: 1160px){
-    .textSobre{
-        margin-left: 220px;
-    }
-    .textSobre h1{
-        margin-left: 30px;
-    }
-
-    .textRecarga{
-        margin-left: 180px;
+@media(max-width: 1050px){
+    .sobre, .recarga, .bilhetagem, .contatos{
+        padding: 50px 5%;
     }
 
 }
 
-/* 1070px */
+/* 930px */
 
-@media screen and (max-width: 1070px){
+@media(max-width: 930px){
+    h1{
+        font-size: 42px;
+    }
+}
 
-    .sobre img{
+/* 890px */
+
+@media(max-width:890px){
+    .sobre img, .recarga img{
         width: 400px;
-        height: 300px;
-    }
-    .textSobre{
-        margin-left: 180px;
-        margin-top: 80px;
-    }
-
-    .recarga img{
-        width: 400px;
-        height: 300px;
-    }
-    .textRecarga{
-        margin-top: 80px;
-        margin-left: 180px;
     }
 }
 
-/* 960px */
 
-@media screen and (max-width: 960px){
-    .textSobre{
-        margin-left: 150px;
-    }
-
-    .textRecarga{
-        margin-left: 150px;
-    }
-}
-
-/* 915px */
-
-@media screen and (max-width: 915px){
-    .sobre img{
-        width: 350px;
-        height: 250px;
-    }
-    .textSobre{
-        margin-top: 50px;
-    }
-
-    .recarga img{
-        width: 350px;
-        height: 250px;
-    }
-    .textRecarga{
-        margin-top: 50px;
-    }
-
-    .textBilhetagem{
-        margin-left: 50px;
-        margin: 0px 50px 0px 50px;
-    }
-}
-
-/* 867px */
-
-@media screen and (max-width: 867px){
-    .sobre img{
-        width: 300px;
-        height: 200px;
-    }
-    .textSobre{
-        margin-top: 30px;
-    }
-
-    .recarga img{
-        width: 300px;
-        height: 200px;
-    }
-    .textRecarga{
-        margin-top: 30px;
-    }
-
-    .textBilhetagem{
-        margin-left: 30px;
-        margin: 0px 30px 0px 30px;
-    }
-}
-
-/* 815px */
-
-@media screen and (max-width: 815px){
-    .textSobre{
-        margin-left: 140px;
-    }
-
-    .textRecarga{
-        margin-left: 145px;
-        width: 500px;
-    }
-}
-
-/* 790px */
-
-@media screen and (max-width: 790px){
-    .textSobre{
-        
-        margin-left: 120px;
-        margin-top: 20px;
-    }
-
-    .textRecarga{
-        margin-left: 140px;
-    }
-
-    .textBilhetagem p{
-        font-size: 15px;
-        font-weight: 600;
-        line-height: 25px;
-    }
-}
 
 /* 780px */
 
 @media screen and (max-width: 780px){
     .sobre{
-        display: block;
+        flex-direction: column;
     }
-    .sobre img{
-        width: 100%;
-        height: 300px;
+    .sobre img, .recarga img{
+        width: 80%;
     }
     .textSobre{
-        margin-left: 250px;
-        width: 400px;
-        margin-top: 0px;
-        padding-bottom: 10px;
-    }
-
-    .textRecarga{
-        width: 100px;
-        margin-left: 230px;
-    }
-
-    .textRecarga h1{
-        margin-left: -100px;
-    }
-
-}
-
-/* 660px */
-
-@media screen and (max-width: 660px){
-    .textSobre{
-        width: 400px;
-        margin-left: 200px;
-    }
-
-    .textRecarga{
-        margin-left: 180px;
-    }
-
-    .textBilhetagem{
-        margin: 0px 20px 0px 20px;
-    }
-}
-
-/* 600px */
-
-@media screen and (max-width: 600px){
-
-    .textSobre{
-        width: 370px;
-        margin-left: 160px;
-        padding-top: 20px;
+       margin-top: 20px; 
     }
 
     .recarga{
-        display: block;
+        flex-direction: column;
     }
-
-    .recarga img{
-        width: 100%;
-        height: 300px;
-    }
-
-    .textRecarga{
-        width: 325px;
-        margin-left: 200px;
-        margin-top: 10px;
-    }
-
-    .textRecarga h1{
-        margin-left: 10px;
+    
+    .bilhetagem h1, .contatos h1{
+        text-align: center;
     }
 }
 
-/* 545px */
-
-@media screen and (max-width: 545px){
-    
-    .sobre img{
-        width: 100%;
-        height: 250px;
-    }
-    .textSobre p{
-        margin-left: -130px;
-    }
-    
-    .textRecarga{
-        width: 320px;
-        margin-left: 170px;
-    }
-    .recarga img{
-        width: 100%;
-        height: 250px;
-    }
-}
 
 
 
 /* 500px */
 
 @media screen and (max-width: 500px){
-    .textSobre{
-        width: 180px;
-        margin-left: 210px;
-    }
-    .textSobre h1{
-        margin-left: -70px;
-    }
-
-    .textRecarga{
-        margin-left: 220px;
-        width: 100px;
-    }
-    .textRecarga h1{
-        margin-left: -90px;
-    }
-
-    .textBilhetagem{
-        margin: 0px 0px 0px 0px;
-    }
-}
-
-/* 390px */
-
-@media screen and (max-width: 390px){
-    .textSobre{
-        width: 120px;
-        margin-left: 220px;
-    }
-    .textSobre h1{
-        margin-left: -120px;
-    }
-
-    .textRecarga{
-        margin-left: 210px;
-    }
-}
-
-/* 330px */
-
-@media screen and (max-width: 330px){
-    .textSobre{
-        margin-left: 200px;
-    }
-
-    .textRecarga{
-        margin-left: 180px;
+    .sobre img, .recarga img{
+        width: 100%;
     }
 }
