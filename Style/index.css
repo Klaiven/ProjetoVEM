@@ -1,3 +1,17 @@
+h1 {
+    font-size: 48px;
+    text-shadow: 0px 0.2px 3px black;
+    margin-bottom: 20px;
+    color: #DF9B35;
+}
+
+.segundo p, .terceiro p {
+    width: 50%;
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-align: justify;
+}
+
 .primeiro{
     display: flex;
     flex-direction: row;
@@ -118,10 +132,6 @@
     text-shadow: 0px 1px 3px black;
 }
 
-.recarga p{
-    font-size: 18px;
-    max-width: 450px;
-}
 
 .recarga a{
     font-size: 20px;
@@ -138,8 +148,8 @@
     flex-direction: column;
     background-color: white;
     align-items: center;
-    margin: 0 30px;
     justify-content: space-between;
+    margin: 0 30px;
 }
 
 
@@ -161,11 +171,6 @@
     width: 350px;
     margin-bottom: 25px;
 
-}
-
-.conheca p{
-    font-size: 18px;
-    margin-bottom: 25px;
 }
 
 .conheca a{
@@ -257,12 +262,18 @@
     }
 }
 
+@media(max-width:1233px){
+    .planos{
+        width: 80%;
+    }
+}
+
 @media(max-width:870px){
     .segundo{
         flex-wrap: wrap;
     }
     .recarga, .conheca{
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -281,6 +292,21 @@
         display: flex;
         margin: 0 auto;
         text-align: center;
+    }
+    .planos{    
+        background-color: white;
+        width: 100%;
+        height: 50%;
+        border-radius: 0px;
+        box-shadow: 0px 1px 5px black;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:610px){
+    .primeiro h1{
+        display: none;
     }
 }
 
@@ -308,6 +334,11 @@
 
     .apresentation{
         width: 100%;
+    }
+    .planos a{
+        height: 120px;
+        font-size: 20px;
+        width: 120px;
     }
     
 }
@@ -362,20 +393,6 @@
     }
     .conheca img{
         width: 260px;
-    }
-    .planos{    
-        background-color: white;
-        width: 100%;
-        height: 50%;
-        border-radius: 0px;
-        box-shadow: 0px 1px 5px black;
-        justify-content: center;
-        align-items: center;
-    }
-    .planos a{
-        height: 120px;
-        font-size: 20px;
-        width: 120px;
     }
     
 }
