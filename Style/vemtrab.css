@@ -1,0 +1,176 @@
+h1 {
+    font-size: 48px;
+    text-shadow: 0px 0.2px 3px black;
+    margin-bottom: 20px;
+    color: #DF9B35;
+}
+
+h2{
+    color: white;
+}
+
+.article1 p, .article2 p, .article3 p, .article4 p {
+    width: 50%;
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+/* VEM TRABALHADOR */
+
+.article1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4895D7;
+    height: 350px;
+    padding: 50px 10%;
+}
+
+.article1 img{
+    width: 400px;
+}
+
+/* O que é? */
+
+.article2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+.article2text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article2text img{
+    width: 450px;
+    box-shadow: 0px  1px 5px black;
+}
+
+/* Como Obter */
+
+.article3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4895D7;
+    height: auto;
+    padding: 50px 10%;
+}
+
+.article3text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article3text p{
+    color: white;
+    width: 40%;
+}
+
+/* Modalidades */
+
+.article4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 50px 10%;
+}
+
+.article4 img{
+    width: 80px;
+}
+
+.article4 h2{
+    color: #DF9B35;
+}
+
+.article4 p{
+    width: 400px;
+}
+
+.article4text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article4pj{
+    display: flex;
+    padding-right: 200px;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.article4pf{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Recarga Presencial */
+
+.article5{
+    display: flex;
+    flex-direction: column;
+    background-color: #4895D7;
+    height: auto;
+    padding: 50px 5%;
+    align-items: center;
+}
+
+.article5text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article5f1{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding-right: 100px;
+}
+
+.article5f1 h2{
+    font-size: 34px;
+    text-shadow: 0px 0.2px 3px black;
+    margin-bottom: 20px;
+    color: #DF9B35;
+    text-align: center;
+}
+
+.article5f2{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.article5f2 h2{
+    font-size: 32px;
+    text-shadow: 0px 0.2px 3px black;
+    margin-bottom: 20px;
+    color: #DF9B35;
+    text-align: center;
+}
+
+iframe{
+    margin-bottom: 20px;
+}
+
+.article5 p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+    width: 600px;
+}
+
+footer h2{
+    color: #333131;
+}

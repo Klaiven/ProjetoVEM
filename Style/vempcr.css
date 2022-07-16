@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Anek Malayalam', sans-serif;
+    margin: 0%;
+    padding: 0%;
+
+}
+p{
+    color: #333131;
+}
+.header{
+    justify-content: space-around;
+    background-color:#4895D7;
+    display: flex;
+    height: 500px;
+    align-items: center;
+
+
+}
+.headerh1 h1{
+    margin-bottom: 55px;
+    text-shadow: 0px 0.5px 3px black;
+    color: #DF9B35;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.headerh1 h2{
+color:white ;
+font-size: 32px;
+font-weight: 500;
+}
+
+.headerh1{
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.header img{
+    width: 500px;
+}
+
+.oque {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    height: 480px;
+     
+}
+.oque h1{
+    display: flex;
+    text-align: center; 
+    margin: 0px auto;
+    margin-bottom: 15px;
+    color: #DF9B35;
+    text-shadow: 0px 0.5px 3px rgba(0, 0, 0, 0.603);
+    font-size: 35px;
+}
+.conteudop{
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.conteudop p{
+    font-size: 22px;
+    max-width: 650px;
+    font-weight: 500;
+
+}
+.conteudop img{
+ 
+    width: 640px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.612);
+
+}
+
+
+.obter{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    background-color:#4895D7;
+    
+}
+.obterp{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.obter h1 {
+    display: flex;
+    text-align: center; 
+    margin: 0px auto;
+    margin-bottom: 15px;
+    color: #DF9B35;
+    text-shadow: 0px 0.5px 3px rgba(0, 0, 0, 0.603);
+    font-size: 35px;
+
+}
+.obterp p{
+    font-size: 22px;
+    max-width: 650px;
+    font-weight: 500;
+}
+.obterp img{
+    width: 700px;
+}
+
+
+.documento {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+    background-color:white;
+
+}
+
+.documento h1 {
+    display: flex;
+    text-align: center; 
+    margin: 0px auto;
+    margin-bottom: 30px;
+    color: #DF9B35;
+    text-shadow: 0px 0.5px 3px rgba(0, 0, 0, 0.603);
+    font-size: 35px;
+}
+
+.documentop{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.documentop p{
+    font-size: 22px;
+    max-width: 650px;
+    font-weight: 500;
+}
+
+.documentop ul {
+     font-size: 22px;
+     font-weight: 500;
+     
+}

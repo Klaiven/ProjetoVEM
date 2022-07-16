@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Anek Malayalam', sans-serif;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.article1 {
+    background-color: #4895D7;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+
+}
+
+.article1 img {
+    margin: 50px 0;
+    height: 500px;
+
+
+}
+
+.article1h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.article1 h1 {
+    font-size: 55px;
+    color: #DF9B35;
+    text-shadow: 0px 0.3px 3px black;
+    margin-bottom: 55px;
+    font-weight: 700px;
+    margin:  23px 0px 35px 0px;
+
+}
+
+.article1 h2 {
+    color: white;
+}
+
+.article2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 40px 0px;
+    height: auto;
+}
+
+.article2 h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:23px 0px 35px 0px;
+    margin-bottom: 15px;
+    color: #DF9B35;
+    text-shadow: 0px 0.5px 3px rgba(0, 0, 0, 0.603);
+    font-size: 35px;
+
+}
+
+.article2 p {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    position: relative;
+    bottom: -40px;
+
+}
+
+.article2pimg {
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    align-items: flex-start;
+    
+
+
+}
+
+.article2pimg img {
+
+    width: 550px;
+    max-width: 640px;
+    position: relative;
+    bottom: -40px;
+    
+   
+
+
+
+}
+
+.article2pimg p {
+    max-width: 550px;
+}
+
+.article3 {
+    background-color: #4895D7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    
+
+}
+
+.article3 h1 {
+    text-shadow: 0px 0.3px 3px black;
+    display: flex;
+    text-align: center;
+    margin: 23px 0px 35px 0px;
+    margin-bottom: 15px;
+    color: #DF9B35;
+    font-size: 35px;
+
+
+}
+
+.article3pimg p {
+    color: white;
+    font-size: 22px;
+    max-width: 550px;
+    font-weight: 500;
+    margin: 20px;
+    /* justify-content: space-around; */
+    display: flex;
+    flex-direction: row;
+
+}
+
+.article3pimg img {
+    width: 400px;
+    height: auto;
+    display:flex;
+}
+
+.article3pimg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin: auto 10%; */
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.article4 {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10%;
+}
+
+.article4 h1 {
+    font-size: 35px;
+    text-shadow: 0px 0.2px 3px black;
+    color: #DF9B35;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 23px 0px 35px 0px;
+
+}
+
+.article4h2 {
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+}
+
+.article4h2 h2 {
+    font-size: 22px;
+    max-width: 650px;
+    font-weight: 500;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.article4h2 ul {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333131;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-items: flex-start;
+    margin: 0 20%;
+    
+}
+.estudanteuni ul{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.article5 {
+    background-color: #4895D7;
+    display: flex;
+    margin: 50px 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.article5 h1 {
+    text-shadow: 0px 0.3px 3px black;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 23px 0px 35px 0px;
+    margin-bottom: 15px;
+    color: #DF9B35;
+    margin-top: 23px;
+
+
+
+}
+
+.article5p p {
+    font-size: 22px;
+    max-width: 650px;
+    font-weight: 500px;
+    color: white;
+    margin: 5px;
+    margin-bottom: 15px;
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+
+
+
+}
+
+.article5p {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 100px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    /* width: 50%; */
+    /* max-width: 550px; */
+}
