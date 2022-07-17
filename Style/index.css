@@ -361,9 +361,10 @@ h1 {
     .recarga h2{
         font-size: 26px;
     }
-    .recarga p{
-        font-size: 18px;
+    .segundo p{
+        font-size: 22px;
         margin: 10px 0;
+        width: 100%;
     }
     .recarga a{
         font-size: 18px;
@@ -380,10 +381,6 @@ h1 {
     }
     .conheca h2{
         font-size: 26px;
-    }
-    .conheca p{
-        font-size: 18px;
-        margin: 10px 0;
     }
     .conheca a{
         font-size: 18px;
