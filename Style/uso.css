@@ -1,21 +1,36 @@
+h1 {
+    font-size: 48px;
+    text-shadow: 0px 0.2px 3px rgba(0, 0, 0, 0.315);
+    margin-bottom: 20px;
+}
+
+.uso p, .options p {
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-align: center;
+}
+
+
 /* DICAS DE USO */
 
 .uso{
-    position: relative;
     display: flex;
     background-color: rgb(219, 175, 92);
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
 }
 
 .textUso{
-    padding: 30px;
-    margin: auto;
-    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    margin: auto 5%;
 }
 
-.textUso p{
-    margin-left: -50px;
-    font-weight: 600px;
-    line-height: 25px;
+#estudante{
+    width: 500px;
 }
 
 /* OPÇÕES */
@@ -23,258 +38,96 @@
 article{
     border: 1px solid #000;
     border-radius: 20px;
-    width: 1100px;
-    margin: 100px auto 100px auto;
+    width: auto;
+    height: auto;
+    margin: 50px 10%;
 }
 
-.optionsA{
-    position: relative;
+.op{
     display: flex;
-    margin: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto 5%;
 }
 
-.optionsA img{
-    width: 100px;
+.options img{
+    width: 80px;
 }
 
-/* OPT1 */  
-.opt1{
-    margin-left: 100px;
+.opt{
+    width: 300px;
+    padding-bottom: 100px;
 }
 
-.opt1 p{
-    margin-left: -35px;
-    margin-top: 10px;
-}
 
-/* OPT 2 */
 
-.opt2{
-    margin-left: 150px;
-}
+@media (max-width: 1280px){
 
-.opt2 p{
-    margin-left: -35px;
-    margin-top: 10px;
-}
-
-/* OPT 3 */
-
-.opt3{
-    margin-left: 150px;
-}
-
-.opt3 p{
-    margin-left: 15px;
-    margin-top: 10px;
-}
-
-/* options B */
-
-.optionsB{
-    position: relative;
-    display: flex;
-    margin: 100px;   
-}
-
-.optionsB img{
-    width: 100px;
-}
-
-/* OPT 4 */
-
-.opt4{
-    margin-left: 100px;
-}
-
-.opt4 p{
-    margin-left: -35px;
-    margin-top: 10px;
-}
-
-/* OPT 5 */
-
-.opt5{
-    margin-left: 170px;
-}
-
-.opt5 p{
-    margin-top: 10px;
-}
-
-/* OPT 6 */
-
-.opt6{
-    margin-left: 200px;
-}
-
-.opt6 p{
-    margin-left: -35px;
-    margin-top: 10px;
-}
-
-@media screen and (max-width: 800px){
-
-    /* DICAS DE USO */
-
-    .uso img{
-        width: 300px;
-        height: 200px;
+    .opt{
+        width: 250px;
     }
+}
 
-    .textUso p{
-        margin: 0px;
+
+@media(max-width: 1170px){
+
+    h1 {
+        font-size: 38px;
     }
+}
 
-    .uso h1 img{
+@media(max-width: 1080px){
+    
+    .opt{
+        width: 200px;
+    }
+    .opition img{
         width: 50px;
-        height: 30px;
     }
-
-    .textUso{
-        margin-top: 0px;
+    .uso{
+        padding: 50px 0%;
     }
-
-    /* OPÇÕES */
-
-    article{
-        width: 550px;
-        height: 500px;
-        margin-left: 0px;
-        padding: 0px;
-        margin: 50px auto 50px auto;
-
-    }
-
-    .optionsA img{
-        width: 30px;
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .optionsB img{
-        width: 30px;
-        padding: 0px;
-        margin: 0px;
-    }
-
-    .opt1{
-        margin-left: 0px;
-    }
-    .opt1 p{
-        width: 150px;
-    }
-    .opt1 img{
-        margin-left: 10;
-    }
-
-    .opt2{
-        margin-left: 50px;
-    }
-
-    .opt2 p{
-        width: 100px;
-    }
-
-    .opt3{
-        margin-left: 80px;
-    }
-    .opt3 p{
-        width: 210px;
-    }
-    .opt3 img{
-        margin-left: 30px;
-    }
-
-    .opt4{
-        margin-left: 0px;
-    }
-    .opt4 p{
-        width: 130px;
-    }
-
-    .opt5{
-        margin-left: 50px;
-    }
-    .opt5 p{
-        width: 210px;
-    }
-    .opt5 img{
-        margin-left: 25px;
-    }
-
-    .opt6{
-        margin-left: -20px;
-    }
-    .opt6 p{
-        width: 100px;
-    }
-
 }
 
-@media screen and (max-width: 320px){
-
-    /* USO */
-
+@media(max-width: 875px){
+   
     .uso{
-        display: block;
-        margin-top: 80px;
+        flex-direction: column;
     }
-
-    .uso img{
-        width: 320px;
+    .textUso{
+        text-align: center;
     }
-
-    .uso h1{
-        margin-left: 30px;
-    }
-
-    .uso h1 img{
-        width: 30px;
-        height: 30px;
-    }
-
     .textUso p{
-        margin-left: -20px;
-        width: 300px;
+        margin-bottom: 50px;
     }
+}
 
-    /* OPÇÕES */
-
+@media(max-width: 590px){
+    .opt{
+        width: 180px;
+    }
     article{
-        width: 270px;
-        height: 750px;
-        margin: 50px auto 50px auto;
+        width: 100%;
+        margin: 50px 0;
+        border-radius: 0;
+        border-right: none;
+        border-left: none;
     }
+}
 
-    .optionsA{
-        display: block;
-        margin: 50px 50px 50px 100px;
+@media(max-width: 540px) {
+
+    #estudante{
+        width: 80%;
+    }   
+}
+
+@media(max-width: 425px){
+    .op{
+        justify-content: center;
     }
-
-    .optionsB{
-        display: block;
-        margin: 50px 50px 50px 100px;
-    }
-
-    .opt2{
-        margin-left: 0px;
-        margin-top: 20px;
-    }
-
-    .opt3{
-        margin-left: -30px;
-        margin-top: 20px;
-    }
-
-    .opt5{
-        margin-left: -30px;
-        margin-top: 20px;
-    }
-
-    .opt6{
-        margin-left: 0px;
-        margin-top: 20px;
-    }
-
 }
