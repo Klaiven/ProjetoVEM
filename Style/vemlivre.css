@@ -5,6 +5,10 @@
     text-align: justify;
 }
 
+#um{
+    display: none;
+}
+
 /* VEM LIVRE ACESSO */
 
 h1 {
@@ -20,14 +24,14 @@ h1 {
     align-items: center;
     justify-content: space-between;
     padding: 50px 10%;
-    height: 350px;
+    height: auto;
     background-color: #4895D7;
 }
 
 .article1text {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    max-width: 800px;
 }
 
 .article1text h2 {
@@ -59,6 +63,7 @@ h1 {
 
 .article2text img{
     width: 350px;
+    height: 350px;
 }
 
 
@@ -86,4 +91,59 @@ h1 {
 .article3 a:hover{
     color: #333131;
     text-decoration: underline;
+}
+
+/* 1020px */
+
+@media(max-width: 1020px){
+    .article1img img{
+        width: 300px;
+    }
+    .article1, .article2, .article3{
+        padding: 50px 5%;
+    }
+}
+
+/* 800px */
+
+@media(max-width: 800px){
+    .article1img img{
+        width: 250px;
+    }
+}
+
+/* 750px */
+
+@media(max-width: 750px){
+    .article1, .article2text{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .article2text p, .article3 p{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .article1img #tres{
+        display: none;
+    }
+    .article1img #um{
+        display: flex;
+        margin-top: 10%;
+    }
+}
+
+/* 400px */
+
+@media(max-width:400px){
+    .article2text img{
+        width: 250px;
+        height: 250px;
+    }
+    .article1img img{
+        width: 200px;
+    }
+    .article2text p, .article3 p{
+        width: 100%;
+    }
 }
