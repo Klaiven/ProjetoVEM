@@ -1,44 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
-
-* {
-    margin: 0%;
-    padding: 0%;
-   font-family: 'Anek Malayalam', sans-serif;
-   color: #333131;
-}
-
-.article1 {
-
-    background-color: #4895D7;
-    display: flex;
-    height: 550px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.article1text {
-    margin: 0 10%;
-}
-
-.article1text h1 {
-
+h1 {
     font-size: 48px;
     text-shadow: 0px 0.2px 3px black;
     margin-bottom: 20px;
     color: #DF9B35;
 }
 
+#um{
+    display: none;
+}
+
+.article1 p, .article2 p, .article3 p, .article4 p, .article4p ul li{
+    max-width: 50%;
+    margin: 0 10px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.article1 {
+    background-color: #4895D7;
+    display: flex;
+    height: auto;
+    padding: 50px 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .article1text h2 {
     color: #FFFFFF;
 }
 
+
 .imgvem1 img {
     max-width: 450px;
-
 }
 
+
 .article3 {
-    margin: 30px 0;
     background-color: #4895D7;
     display: flex;
     height: auto;
@@ -46,15 +44,10 @@
 }
 
 .article3 h1 {
-    margin: 23px 0px 35px 0px;
-    font-size: 35px;
-    text-shadow: 0px 0.2px 3px black;
-    color: #DF9B35;
     text-align: center;
 }
 
 .article3p {
-    
     display: flex;
     justify-content: space-between;
     margin: 0px 10%;
@@ -66,60 +59,33 @@
 }
 
 .article3p p {
-
-    margin-bottom: 15px;
-    font-size: 22px;
     color: #FFFFFF;
     text-align: justify;
-    margin-left: 25px;
-    margin-right: 25px;
-    width: 50%;
-    max-width: 550px;
-    
-    
 }
+
 
 .article2h1 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    text-shadow: 0px 0.2px 3px black;
-    
-}
-
-.article2h1 h1{
-
-    margin: 23px 0px 34px 0px;
-    color: #DF9B35;
-    font-size: 35px;
+    text-align: center;  
 }
 
 .article2 {
-    
     display: flex;
     flex-direction: column;
     height: auto;
-   
+    padding: 50px 10%;
 }
 
 .article2img {
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 0 5%;
-
-
 }
 
+
 .article2img p{
-
-    font-size: 22px;
-    width: 550px;
+    max-width: 450px;
     text-align: justify;
-    
-
 }
 
 .article2img img {
@@ -127,37 +93,81 @@
 }
 
 .article4 {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
-    margin: 40px 10%;
+    padding: 50px 10%;
     background-color: #FFFFFF;
 }
 
-.article4 h1 {
-   
-    color: #DF9B35;
-    font-size: 35px;
-    text-shadow: 0px 0.2px 3px black;
+
+
+.article4 p, .article4p ul li{
     margin-bottom: 40px;
+    max-width: 100%;
+}
+
+/* 900px */
+
+@media(max-width: 900px){
+    .article1, .article2, .article4{
+        padding: 50px 5%;
+    }
+    .article3p{
+        margin: 0px 5%;
+    }
+    .imgvem1 img {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 800px) {
+    .article3p img {
+        display: none;
+    }
+    .article3p p{
+        max-width: 80%;
+    }
+    .article3p{
+        justify-content: center;
+        margin: 50px 0%;
+    }
+    .article2img, .article1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .article1 img{
+        display: none;
+    }
+    #um{
+        display: flex;
+        margin-top: 20px;
+        width: 300px;
+    }
+    .article2img img{
+        margin-bottom: 20px;
+        max-width: 400px;
+    }
+    .article1, .article2, .article4{
+        padding: 50px 0;
+    }
+    .article1 p, .article2 p, .article3 p, .article4 p, .article4p ul li{
+        max-width: 80%;
+        margin: 10px auto;
+    }
+    h1, h2{
+        text-align: center;
+        margin: 0 10%;
+    }
 
 }
 
-.article4p {
-     width: 100%;
-    justify-content: space-between;
-    /* max-width: 700px; */
-    
-}
+/* 420px */
 
-.article4p p {
-    
-    margin-bottom: 40px;
-    
-}
-
-.article4p ul li {
-    padding: 5px;
+@media (max-width:420px) {
+    .article2img img, .imgvem1 img{
+        max-width: 90%;
+        margin: auto;
+    }
 }
