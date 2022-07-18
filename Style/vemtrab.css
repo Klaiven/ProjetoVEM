@@ -5,12 +5,30 @@ h1 {
     color: #DF9B35;
 }
 
+.article5 iframe{
+    width: 600px;
+    height: 450px;
+    border: 0;
+    margin: auto;
+}
+.article3 iframe{
+    width: 600px;
+    height: 450px;
+    border: 0;
+    margin: auto;
+}
+
 h2{
     color: white;
 }
 
-.article1 p, .article2 p, .article3 p, .article4 p {
+#um{
+    display: none;
+}
+
+.article1 p, .article2 p, .article3 p{
     width: 50%;
+    margin: 0 10px;
     margin-bottom: 15px;
     font-size: 22px;
     text-align: justify;
@@ -23,12 +41,13 @@ h2{
     justify-content: space-between;
     align-items: center;
     background-color: #4895D7;
-    height: 350px;
+    height: auto;
     padding: 50px 10%;
 }
 
 .article1 img{
-    width: 400px;
+    max-width: 400px;
+    margin: 0 10%px;
 }
 
 /* O que é? */
@@ -68,7 +87,7 @@ h2{
 
 .article3text p{
     color: white;
-    width: 40%;
+    max-width: 100%;
 }
 
 /* Modalidades */
@@ -76,9 +95,9 @@ h2{
 .article4{
     display: flex;
     flex-direction: column;
-    align-items: center;
     height: auto;
     padding: 50px 10%;
+    justify-content: space-between;
 }
 
 .article4 img{
@@ -89,8 +108,14 @@ h2{
     color: #DF9B35;
 }
 
+.article4 h1{
+    text-align: center;
+}
+
 .article4 p{
-    width: 400px;
+    max-width: 400px;
+    margin: 0 5px;
+    font-size: 22px;
 }
 
 .article4text{
@@ -102,7 +127,6 @@ h2{
 
 .article4pj{
     display: flex;
-    padding-right: 200px;
     flex-direction: column;
     align-items: center;
     text-align: justify;
@@ -124,18 +148,19 @@ h2{
     height: auto;
     padding: 50px 5%;
     align-items: center;
+    justify-content: space-between;
 }
 
 .article5text{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .article5f1{
     display: flex;
     flex-direction: column;
     max-width: 600px;
-    padding-right: 100px;
 }
 
 .article5f1 h2{
@@ -165,12 +190,136 @@ iframe{
 }
 
 .article5 p{
-    font-size: 20px;
+    font-size: 22px;
+    margin: 0 5px;
     margin-bottom: 20px;
     color: white;
-    width: 600px;
+    max-width: 600px;
+
 }
 
 footer h2{
     color: #333131;
+}
+
+@media(max-width: 1370px){
+    .article5 iframe{
+        width: 400px;
+        height: 300px;
+        border: 0;
+    }
+
+    .article5 p{
+        max-width: 500px;
+    }
+}
+
+@media(max-width:1100px){
+    .article1, .article2, .article3, .article4{
+        padding: 50px 5%;
+    }
+}
+
+@media(max-width: 975px){
+
+    .article5 iframe{
+        width: 400px;
+        height: 300px;
+        border: 0;
+    }
+    .article3 iframe{
+        width: 400px;
+        height: 300px;
+        border: 0;
+    }
+}
+
+
+
+@media(max-width: 950px){
+    .article1, .article2text, .article3text, .article4text, .article5text{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article5 iframe{
+        width: 600px;
+        height: 450px;
+        border: 0;
+    }
+    .article3 iframe{
+        width: 600px;
+        height: 450px;
+        border: 0;
+    }
+    .article5f2 {
+        padding-top: 80px;
+    }
+    .article1 img{
+        padding-top: 30px;
+    }
+    #um{
+        display: flex;
+    }
+    #tres{
+        display: none;
+    }
+    .article2 img{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media(max-width: 925px){
+    .article5{
+        padding: 50px 0%;
+    }
+}
+
+@media(max-width: 650px){
+    .article1{
+        text-align: center;
+    }
+    .article5 iframe{
+        width: 400px;
+        height: 300px;
+        border: 0;
+    }
+    .article3 iframe{
+        width: 400px;
+        height: 300px;
+        border: 0;
+    }
+
+    .article1 p, .article2 p, .article3 p{
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .article5 h1{
+        text-align: center;
+    }
+    
+}
+
+@media(max-width:450px){
+    .article5 iframe{
+        width: 300px;
+        height: 225px;
+        border: 0;
+    }
+    .article3 iframe{
+        width: 300px;
+        height: 225px;
+        border: 0;
+    }
+
+    .article1 img{
+        max-width: 300px;
+    }
+    .article2 img{
+        max-width: 300px;
+    }
 }
