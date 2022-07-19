@@ -54,6 +54,10 @@ h1 {
     align-items: flex-start;
 }
 
+.article3 a{
+    color: white;
+}
+
 .article3p img {
     max-width: 350px;
 }

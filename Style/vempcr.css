@@ -1,152 +1,171 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
-
-*{
-    font-family: 'Anek Malayalam', sans-serif;
-    margin: 0%;
-    padding: 0%;
-
-}
-p{
-    color: #333131;
-}
-.header{
-    justify-content: space-around;
-    background-color:#4895D7;
-    display: flex;
-    height: 500px;
-    align-items: center;
-
-
-}
-.headerh1 h1{
-    margin-bottom: 55px;
-    text-shadow: 0px 0.5px 3px black;
-    color: #DF9B35;
+h1 {
     font-size: 48px;
-    font-weight: 700;
-
-}
-.headerh1 h2{
-color:white ;
-font-size: 32px;
-font-weight: 500;
+    text-shadow: 0px 0.2px 3px black;
+    margin-bottom: 20px;
+    color: #DF9B35;
 }
 
-.headerh1{
+.header h2, .obter h2, .documento h2, .oque h2{
+    color: white;
+}
+
+#um{
+    display: none;
+}
+
+.obter p, .documento p, .oque p{
+    color: #333131;
+    width: 50%;
+    margin: 0 10px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-align: justify;
+}
+.obter p, .obter a{
+    color: white;
+}
+
+.header {
+    justify-content: space-between;
+    background-color: #4895D7;
+    display: flex;
+    height: auto;
+    padding: 50px 10%;
+    align-items: center;
+}
+
+.headerh1 {
     flex-direction: column;
     display: flex;
-    
 }
 
-.header img{
-    width: 500px;
+.header img {
+    width: 400px;
 }
 
 .oque {
     display: flex;
     flex-direction: column;
-    margin: 20px 0px;
-    height: 480px;
-     
+    padding: 50px 10%;
+    height: auto;
 }
-.oque h1{
-    display: flex;
-    text-align: center; 
-    margin: 0px auto;
-    margin-bottom: 15px;
-    color: #DF9B35;
-    text-shadow: 0px 0.5px 3px rgba(0, 0, 0, 0.603);
-    font-size: 35px;
+
+.oque h1,
+.obter h1,
+.documento h1 {
+    text-align: center;
 }
-.conteudop{
+
+.conteudop {
     display: flex;
-    flex-direction: row-reverse; 
-    justify-content: space-around;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     align-items: center;
-    
-    
 }
-.conteudop p{
-    font-size: 22px;
-    max-width: 650px;
-    font-weight: 500;
 
-}
-.conteudop img{
- 
-    width: 640px;
+
+.conteudop img {
+    width: 500px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.612);
-
 }
 
-
-.obter{
+.obter {
     display: flex;
     flex-direction: column;
-    margin: 20px 0px;
-    background-color:#4895D7;
-    
-}
-.obterp{
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-around;
+    background-color: #4895D7;
     align-items: center;
+    padding: 50px 10%;
 }
 
-.obter h1 {
-    display: flex;
-    text-align: center; 
-    margin: 0px auto;
-    margin-bottom: 15px;
-    color: #DF9B35;
-    text-shadow: 0px 0.5px 3px rgba(0, 0, 0, 0.603);
-    font-size: 35px;
-
+.obter p{
+    width: 80%;
 }
-.obterp p{
-    font-size: 22px;
-    max-width: 650px;
-    font-weight: 500;
-}
-.obterp img{
-    width: 700px;
-}
-
 
 .documento {
     display: flex;
     flex-direction: column;
-    margin: 50px 0px;
-    background-color:white;
-
+    padding: 50px 10%;
+    background-color: white;
 }
 
-.documento h1 {
-    display: flex;
-    text-align: center; 
-    margin: 0px auto;
-    margin-bottom: 30px;
-    color: #DF9B35;
-    text-shadow: 0px 0.5px 3px rgba(0, 0, 0, 0.603);
-    font-size: 35px;
-}
 
-.documentop{
+.documentop {
     display: flex;
-    flex-direction: row; 
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
 .documentop p{
-    font-size: 22px;
-    max-width: 650px;
-    font-weight: 500;
+    width: 450px;
 }
 
 .documentop ul {
-     font-size: 22px;
-     font-weight: 500;
-     
+    font-size: 22px;
+    font-weight: 500;
+    width: 450px;
+}
+
+/* MEDIA */
+
+/* 1230px */
+
+@media(max-width: 1230px){
+    .documento, .oque{
+        padding: 50px 5%;
+    }
+}
+
+
+/* 1080px */
+@media(max-width: 1080px){
+    .documentop, .conteudop{
+        flex-direction: column;
+    }
+    .conteudop p, .documentop p, .documentop ul{
+        width: 80%;
+    }
+    .conteudop img{
+        width: 600px;
+    }
+}
+
+/* 850px */
+
+@media(max-width: 850px){
+    .obter, .header{
+        padding: 50px 5%;
+    }
+    .header img{
+        width: 350px;
+    }
+    .oque p{
+        width: 80%;
+    }
+}
+
+/* 690px */
+
+@media(max-width: 690px){
+    .header{
+        flex-direction: column;
+    }
+    .header img{
+        display: none;
+    }
+    #um{
+        display: flex;
+        padding-top: 10%;
+        margin: auto;
+    }
+    h1, header h2{
+        text-align: center;
+    }
+    .oque p, .conteudop p, .documentop p, .obter p{
+        width: 100%;
+    }
+    #um, .conteudop img{
+        width: 90%;
+    }
+
 }
