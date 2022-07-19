@@ -321,4 +321,10 @@ footer h2{
     .article2 img{
         max-width: 300px;
     }
+    .article3text p{
+        width: 100%;
+    }
+    .article2text p{
+        width: 100%;
+    }
 }
