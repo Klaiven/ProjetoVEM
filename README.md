@@ -11,7 +11,7 @@
 <p>O projeto consiste na requalificação do site atual do <a href="http://vemgranderecife.com.br">VEM Grande Recife</a>, trazendo um design novo e responsivo, o nosso projeto se adapta em qualquer tela, possui alta acessibilidade para qualquer pessoa conseguir acessar todas as partes do site</p>
 <p><a href="https://klaiven.github.io/ProjetoVEMv1" title="Clique e acesse agora!">Acesse o GitHub Pages e veja o projeto.</a></p>
 
-##TECNOLOGIAS UTILIZADAS
+## TECNOLOGIAS UTILIZADAS
 
 - ``HTML5``
 - ``CSS3``
