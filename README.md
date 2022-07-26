@@ -20,4 +20,4 @@
 ## COLABORADORES
 
 [<img src="https://avatars.githubusercontent.com/u/95566189?v=4" width=115><br><sub>Klaiven Castro</sub>](https://github.com/klaiven) | [<img src="https://avatars.githubusercontent.com/u/104866150?v=4" width=115><br><sub>Emerson Medeiros/sub>](https://github.com/DevEmers0n) |  [<img src="https://avatars.githubusercontent.com/u/104866150?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/) |  [<img src="https://avatars.githubusercontent.com/u/104866150?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/) |
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
