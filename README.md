@@ -11,13 +11,17 @@
 <p>O projeto consiste na requalificação do site atual do <a href="http://vemgranderecife.com.br">VEM Grande Recife</a>, trazendo um design novo e responsivo, o nosso projeto se adapta em qualquer tela, possui alta acessibilidade para qualquer pessoa conseguir acessar todas as partes do site</p>
 <p><a href="https://klaiven.github.io/ProjetoVEMv1" title="Clique e acesse agora!">Acesse o GitHub Pages e veja o projeto.</a></p>
 
+</br></br>
+
 ## TECNOLOGIAS UTILIZADAS
 
 - ``HTML5``
 - ``CSS3``
 - ``VS Code``
 
+</br></br>
+
 ## COLABORADORES
 
-[<img src="https://avatars.githubusercontent.com/u/95566189?v=4" width=115><br><sub>Klaiven Castro</sub>](https://github.com/klaiven) | [<img src="https://avatars.githubusercontent.com/u/104866150?v=4" width=115><br><sub>Emerson Medeiros</sub>](https://github.com/DevEmers0n) |  [<img src="https://avatars.githubusercontent.com/u/10486610?v=4" width=115><br><sub>Guilherme Lima</sub>](https://github.com/) |  [<img src="https://avatars.githubusercontent.com/u/10486650?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/) |
-| :---: | :---: | :---: | :---: |
+[<img src="https://avatars.githubusercontent.com/u/95566189?v=4" width=115><br><sub>Klaiven Castro</sub>](https://github.com/klaiven) | [<img src="https://avatars.githubusercontent.com/u/104866150?v=4" width=115><br><sub>Emerson Medeiros</sub>](https://github.com/DevEmers0n) | [<img src="https://avatars.githubusercontent.com/u/10486610?v=4" width=115><br><sub>Kevyn Santos</sub>](https://github.com/) | [<img src="https://avatars.githubusercontent.com/u/10486650?v=4" width=115><br><sub>João Antônio</sub>](https://github.com/) | [<img src="https://avatars.githubusercontent.com/u/10486650?v=4" width=115><br><sub>Cleyton Lucas</sub>](https://github.com/) | 
+| :---: | :---: | :---: | :---: | :---: |
